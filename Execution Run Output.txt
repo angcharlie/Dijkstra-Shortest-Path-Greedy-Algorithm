@@ -1,0 +1,100 @@
+Vertex  Distance from Source: 0
+ 0               0      Path: 0
+ 1               4      Path: 0-->1
+ 2               12     Path: 0-->1 -->2
+ 3               19     Path: 0-->1 -->2 -->3
+ 4               21     Path: 0-->7 -->6 -->5 -->4
+ 5               11     Path: 0-->7 -->6 -->5
+ 6               9      Path: 0-->7 -->6
+ 7               8      Path: 0-->7
+ 8               14     Path: 0-->1 -->2 -->8
+
+Vertex  Distance from Source: 1
+ 0               4      Path: 1-->0
+ 1               0      Path: 1
+ 2               8      Path: 1-->2
+ 3               15     Path: 1-->2 -->3
+ 4               22     Path: 1-->2 -->5 -->4
+ 5               12     Path: 1-->2 -->5
+ 6               12     Path: 1-->7 -->6
+ 7               11     Path: 1-->7
+ 8               10     Path: 1-->2 -->8
+
+Vertex  Distance from Source: 2
+ 0               12     Path: 2-->1 -->0
+ 1               8      Path: 2-->1
+ 2               0      Path: 2
+ 3               7      Path: 2-->3
+ 4               14     Path: 2-->5 -->4
+ 5               4      Path: 2-->5
+ 6               6      Path: 2-->5 -->6
+ 7               7      Path: 2-->5 -->6 -->7
+ 8               2      Path: 2-->8
+
+Vertex  Distance from Source: 3
+ 0               19     Path: 3-->2 -->1 -->0
+ 1               15     Path: 3-->2 -->1
+ 2               7      Path: 3-->2
+ 3               0      Path: 3
+ 4               9      Path: 3-->4
+ 5               11     Path: 3-->2 -->5
+ 6               13     Path: 3-->2 -->5 -->6
+ 7               14     Path: 3-->2 -->5 -->6 -->7
+ 8               9      Path: 3-->2 -->8
+
+Vertex  Distance from Source: 4
+ 0               21     Path: 4-->5 -->6 -->7 -->0
+ 1               22     Path: 4-->5 -->2 -->1
+ 2               14     Path: 4-->5 -->2
+ 3               9      Path: 4-->3
+ 4               0      Path: 4
+ 5               10     Path: 4-->5
+ 6               12     Path: 4-->5 -->6
+ 7               13     Path: 4-->5 -->6 -->7
+ 8               16     Path: 4-->5 -->2 -->8
+
+Vertex  Distance from Source: 5
+ 0               11     Path: 5-->6 -->7 -->0
+ 1               12     Path: 5-->2 -->1
+ 2               4      Path: 5-->2
+ 3               11     Path: 5-->2 -->3
+ 4               10     Path: 5-->4
+ 5               0      Path: 5
+ 6               2      Path: 5-->6
+ 7               3      Path: 5-->6 -->7
+ 8               6      Path: 5-->2 -->8
+
+Vertex  Distance from Source: 6
+ 0               9      Path: 6-->7 -->0
+ 1               12     Path: 6-->7 -->1
+ 2               6      Path: 6-->5 -->2
+ 3               13     Path: 6-->5 -->2 -->3
+ 4               12     Path: 6-->5 -->4
+ 5               2      Path: 6-->5
+ 6               0      Path: 6
+ 7               1      Path: 6-->7
+ 8               6      Path: 6-->8
+
+Vertex  Distance from Source: 7
+ 0               8      Path: 7-->0
+ 1               11     Path: 7-->1
+ 2               7      Path: 7-->6 -->5 -->2
+ 3               14     Path: 7-->6 -->5 -->2 -->3
+ 4               13     Path: 7-->6 -->5 -->4
+ 5               3      Path: 7-->6 -->5
+ 6               1      Path: 7-->6
+ 7               0      Path: 7
+ 8               7      Path: 7-->8
+
+Vertex  Distance from Source: 8
+ 0               14     Path: 8-->2 -->1 -->0
+ 1               10     Path: 8-->2 -->1
+ 2               2      Path: 8-->2
+ 3               9      Path: 8-->2 -->3
+ 4               16     Path: 8-->2 -->5 -->4
+ 5               6      Path: 8-->2 -->5
+ 6               6      Path: 8-->6
+ 7               7      Path: 8-->7
+ 8               0      Path: 8
+
+Press any key to continue . . .
